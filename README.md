@@ -32,16 +32,15 @@ The dataset contains various features related to flight bookings, including:
 - Used correlation and group-by aggregations to identify influential factors.
 
 ### 📊 Key Insights
-Airline Matters: Premium airlines like Jet Airways have higher average prices, while budget carriers like IndiGo and Air Asia are cheaper.
+- **Airline Matters:** Premium airlines like Jet Airways have higher average prices, while budget carriers like IndiGo and Air Asia are cheaper.
+- **Stops Increase Cost:** More layovers generally lead to higher prices; non-stop flights are cheaper.
+- **Duration Affects Price:** Longer flights tend to cost more, especially on multi-stop routes.
+- **Timing Impacts Pricing:** Early morning and late-night departures are generally cheaper. Mid-day and evening flights are more expensive.
+- **Routes & Cities Influence Fare:** Popular routes are more competitive and show more variation in pricing.
+- **Date & Seasonality:** Travel on weekends or holidays shows a noticeable price hike.
+- **Additional Info Column:** Rare values like “In-flight meal included” slightly raise ticket prices compared to “No info.”
 
-Stops Increase Cost: More layovers generally lead to higher prices; non-stop flights are cheaper.
-
-Duration Affects Price: Longer flights tend to cost more, especially on multi-stop routes.
-
-Timing Impacts Pricing: Early morning and late-night departures are generally cheaper. Mid-day and evening flights are more expensive.
-
-Routes & Cities Influence Fare: Popular routes are more competitive and show more variation in pricing.
-
-Date & Seasonality: Travel on weekends or holidays shows a noticeable price hike.
-
-Additional Info Column: Rare values like “In-flight meal included” slightly raise ticket prices compared to “No info.”
+### 📌 Future Scope
+- Build a machine learning model to predict prices.
+- Use advanced time series or seasonal analysis on booking dates.
+- Add more airline-specific or weather-related external data.
